@@ -1,12 +1,12 @@
-import React from 'react'
+import React from "react";
 
-const Button = ({onClick}) => {
-    console.log("button component")
+const Button = ({ onClick }) => {
+  console.log("button component");
   return (
     <div>
       <button onClick={onClick}>Click me</button>
     </div>
-  )
-}
+  );
+};
 
-export default React.memo(Button)
+export default React.memo(Button);
